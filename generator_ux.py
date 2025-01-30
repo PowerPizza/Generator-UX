@@ -16,13 +16,6 @@ banner = """
 """
 c = "abcdefghijklmnopqrstuvwxyz"
 c = r"1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+-=[]{}|;:',.<>?/`~₹\\"
-def make(pass_len, comb):
-	if pass_len == 0:
-		print(comb)
-		return comb
-	for x in range(len(c)):
-		make(pass_len-1, comb+c[x])
-		
 
 fp = None
 counter = 0
