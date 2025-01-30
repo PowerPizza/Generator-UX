@@ -24,3 +24,16 @@ do *ls* to see output file in your present working directory.
 1. To generate word lists.
 2. To use in brute force attack.
 3. For testing of combination regarding projects.
+
+# Prompts
+**1. Do you want to continue with this one?**
+
+This prompt asks you to choose unique character list there is one by default present but you can provide your own as well...
+
+**2. Length of combination**
+
+Combination length you need like of 3 characters or 7 characters etc...
+
+**3. Enter output file name**
+
+File will be created in PWD, containing all the unique combinations of provided character list.
